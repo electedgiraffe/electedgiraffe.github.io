@@ -34,7 +34,8 @@ NAV section
 }
 
 #nav img {
-  max-width: 252px;
+  max-width: 205px;
+  max-height: 45px;
 }
 
 #nav .nav-links {
@@ -333,7 +334,7 @@ FOOTER section
   margin: 5vw 0 2vw;
 }
 
-#footer .footer-wrap ul {
+#footer .footer-wrap ul:first-of-type {
   list-style: none;
   font-family: 'Roboto', sans-serif;
   font-size: 1.2em;
@@ -344,12 +345,28 @@ FOOTER section
   padding: 0;
 }
 
-#footer .footer-wrap ul li {
-  margin: 6px 0;
+#footer .footer-wrap ul:first-of-type li {
+  margin: 3px 0;
 }
 
-#footer .footer-wrap ul a {
+#footer .footer-wrap ul:first-of-type a {
   text-decoration: none;
+}
+
+#footer .footer-wrap ul + img {
+  margin: 1.5vw 0;
+  max-width: 205px;
+  max-height: 45px;
+}
+
+#footer .footer-wrap ul:last-of-type {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#footer .footer-wrap ul:last-of-type li {
+  display: inline;
 }
 
 
