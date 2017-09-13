@@ -46,7 +46,6 @@ NAV section
 }
 
 #nav .nav-links a {
-  color: #0091c9;
   text-transform: uppercase;
   text-decoration: none;
   margin: .5vw;
@@ -388,12 +387,13 @@ styling classes
   background-position: 0 82%;
 }
 
-.underline-anim {
+/**** animated link underline - primary color ****/
+.underline-anim-prim {
     display: inline-block;
     position: relative;
     padding-bottom: 2px;
 }
-.underline-anim:before {
+.underline-anim-prim:before {
     content: '';
     display: block;
     position: absolute;
@@ -403,7 +403,45 @@ styling classes
     width: 0;
     transition: width 0s ease, background .5s ease;
 }
-.underline-anim:after {
+.underline-anim-prim:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    background: #0091c9;
+    transition: width .3s ease;
+}
+.underline-anim-prim:hover:before {
+    width: 100%;
+    background: #0091c9;
+    transition: width .3s ease;
+}
+.underline-anim-prim:hover:after {
+    width: 100%;
+    background: transparent;
+    transition: all 0s ease;
+}
+
+/**** animated link underline - secondary color ****/
+.underline-anim-sec {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+.underline-anim-sec:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0s ease, background .5s ease;
+}
+.underline-anim-sec:after {
     content: '';
     display: block;
     position: absolute;
@@ -414,12 +452,12 @@ styling classes
     background: #5a6871;
     transition: width .3s ease;
 }
-.underline-anim:hover:before {
+.underline-anim-sec:hover:before {
     width: 100%;
     background: #5a6871;
     transition: width .3s ease;
 }
-.underline-anim:hover:after {
+.underline-anim-sec:hover:after {
     width: 100%;
     background: transparent;
     transition: all 0s ease;
