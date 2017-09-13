@@ -310,7 +310,7 @@ COMPANIES section
 ****/
 
 #companies {
-  margin: 1vw 0 5vw;
+  margin: 1vw 0 9.5vw;
 }
 
 #companies .companies-wrap {
@@ -346,7 +346,7 @@ FOOTER section
 }
 
 #footer .footer-wrap ul:first-of-type li {
-  margin: 3px 0;
+  margin: 5px 0;
 }
 
 #footer .footer-wrap ul:first-of-type a {
@@ -367,6 +367,11 @@ FOOTER section
 
 #footer .footer-wrap ul:last-of-type li {
   display: inline;
+  margin-right: 1.2vw;
+}
+
+#footer .footer-wrap ul:last-of-type li:last-of-type {
+  margin: 0;
 }
 
 
