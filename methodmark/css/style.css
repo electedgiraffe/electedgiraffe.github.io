@@ -11,7 +11,7 @@ NAV section
 
 #nav {
   height: 3vw;
-  margin-top: 2vw;
+  margin-top: 1.3vw;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: .9em;
@@ -80,7 +80,7 @@ HEADER section
   background-image: linear-gradient(90deg, #fff 0%, #fff 100%);
   background-repeat: no-repeat;
   background-size: 100% 4px;
-  background-position: 10px 29%;
+  background-position: 10px 35px;
 }
 
 #header h1 {
@@ -120,12 +120,14 @@ TEAM section
   left: 8.5vw;
   background-color: #fff;
   padding: .9vw 3vw .9vw 8.5vw;
+  transition: all 0.3s ease;
 }
 
 #team .team-link div {
   width: 13vw;
   font-family: 'Merriweather', serif;
   font-size: 1.5em;
+  line-height: 1.6em;
   letter-spacing: .06em;
   font-style: italic;
   margin-bottom: .4vw;
@@ -133,7 +135,8 @@ TEAM section
 
 /*
 #team .team-link img {
-  
+  width: 130px;
+  height: 22px;
 }
 */
 
@@ -267,20 +270,13 @@ ARTICLES section
   content: '';
   position: absolute;
   left: -5%;
-  top: 5%;
+  top: 0;
   height: 100%;
   width: 5%;
   background: #0091c9;
   z-index: -1;
   transition: .4s .02s ease-in all;
 }
-
-#articles .button .arrow-short {
-  display: inline-block;
-  
-}
-
-/*
 #articles .button:hover {
   cursor: pointer;
   color: transparent;
@@ -293,17 +289,7 @@ ARTICLES section
   left: 100%;
   width: 70%;
 }
-#articles .button .arrow-short.after:after {
-  left: -80px;
-  transition: .2s .2s ease all;
-}
 
-#articles .button .arrow-short.after:before {
-  left: -104px;
-  top: 14px;
-  opacity: 0.2;
-}
-*/
 
 /**** 
 COMPANIES section
@@ -324,6 +310,19 @@ COMPANIES section
   margin: 1vw 0;
   box-sizing: border-box;
   border-left: 5px solid #0091c9;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#companies .companies-icon {
+  width: 25%;
+  text-align: center;
+}
+
+#companies .companies-icon img {
+  max-height: 140px;
 }
 
 /**** 
@@ -365,7 +364,6 @@ FOOTER section
   padding: 0;
   display: flex;
   align-items: center;
-  background: green;
 }
 
 #footer .footer-wrap ul:last-of-type li {
@@ -383,12 +381,12 @@ FOOTER section
   border: 3px solid #5a6871;
   border-radius: 50%;
   color: #5a6871;
-  transition: font-size 0.35s ease;
+  transition: all 0.35s ease;
 }
 
 #footer .footer-wrap ul:last-of-type li .fa:hover {
   opacity: .7;
-  font-size: 2vw;
+  transform: scale(1.1);
 }
 
 #footer .footer-wrap ul:last-of-type li:last-of-type {
@@ -455,12 +453,12 @@ styling classes
     height: 2px;
     width: 0;
     background: #0091c9;
-    transition: width .3s ease;
+    transition: width .35s ease;
 }
 .underline-anim-prim:hover:before {
     width: 100%;
     background: #0091c9;
-    transition: width .3s ease;
+    transition: width .35s ease;
 }
 .underline-anim-prim:hover:after {
     width: 100%;
@@ -508,7 +506,7 @@ styling classes
 
 /**** arrow icons ****/
 .arrow-long {
-  background: url(../assets/arrow-long@2X.png);
+  background: url(../assets/arrow-long.png);
   background-size: contain;
   background-repeat: no-repeat;
   width: 2vw;
