@@ -161,6 +161,7 @@ NAV section
   position: absolute;
   width: 100%;
   top: 0;
+  transition: all 0.35s ease;
 }
 
 #nav .nav-wrapper {
@@ -210,6 +211,7 @@ HEADER section
   background: -o-linear-gradient(90deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
   background: -ms-linear-gradient(90deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
   background: linear-gradient(0deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
+  transition: all 0.25s ease;
 }
 
 #header .header-wrap {
@@ -303,7 +305,7 @@ ARTICLES section
 }
 
 #articles .articles-wrap {
-  margin-left: 22vw;
+  margin-left: 21.5%;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -344,7 +346,7 @@ ARTICLES section
 #articles .article {
   width: 25%;
   height: auto;
-  margin: 0 7vw;
+  margin: 0 9%;
   font-family: 'Merriweather', serif;
   position: relative;
 }
@@ -557,4 +559,48 @@ FOOTER section
 
 #footer .footer-wrap ul:last-of-type li:last-of-type {
   margin: 0;
+}
+
+/****
+MEDIA QUERIES
+****/
+@media screen and (max-width: 1200px) {
+  /**** 
+  HEADER section
+  ****/
+  
+  #header {
+    height: 40vw;
+  }
+  
+  #team .team-link {
+    top: 25%;
+  }
+  
+  #articles .article {
+    width: 35%;
+    margin: 0 5%;
+  }
+  
+  #articles .text-wrapper {
+    top: 7.3%;
+  }
+  
+  #articles .article p {
+    margin-bottom: 2vw;
+  }
+  
+  #articles a {
+    margin-bottom: 10vw;
+  }
+  
+  #companies .icon-container {
+    height: 40vw;
+  }
+  
+  #companies .companies-icon {
+    width: 15%;
+    margin: 0 5%;
+  }
+  
 }
