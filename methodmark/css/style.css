@@ -260,9 +260,10 @@ TEAM section
 #team .team-link {
   position: absolute;
   top: 20%;
-/*  left: 8.5vw;*/
+  width: 24%;
+  min-width: 250px;
   background-color: #fff;
-  padding: .9vw 3vw .9vw 8.5vw;
+  padding: .9vw 0;
 /*  transition: all 0.3s ease;*/
 }
 
@@ -271,13 +272,13 @@ TEAM section
 }
 
 #team .team-link div {
-  width: 13vw;
+  width: 55%;
   font-family: 'Merriweather', serif;
   font-size: 1.5em;
   line-height: 1.6em;
   letter-spacing: .06em;
   font-style: italic;
-  margin-bottom: .4vw;
+  margin: 0 0 .4em 35%;
 }
 
 /*
