@@ -177,13 +177,16 @@ NAV section
   padding: 0;
 }
 
-#nav img {
-  max-width: 205px;
-  max-height: 45px;
+#nav .nav-logo {
+  background-image: url(../assets/MM_logo_horiz.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 205px;
+  height: 45px;
 }
 
 #nav .nav-links {
-  margin-right:9vw;
+  margin-right: 9vw;
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -269,11 +272,11 @@ TEAM section
 
 #team .team-img {
   background-image: url('../assets/Team.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    padding-top: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 50%;
   position: relative;
 }
 
@@ -621,8 +624,22 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 900px) {
+  #nav .nav-logo {
+    background-image: url(../assets/MM_logo_icon%20only.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45px;
+    height: 45px;
+  }
+  
+  #nav .nav-links {
+    margin-right: 1em;
+    padding-left: 0;
+  }
+  
   #header {
     height: 500px;
+    background-color: lightskyblue;
   }
   
   #header .header-wrap {
