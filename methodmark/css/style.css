@@ -533,9 +533,11 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 1200px) {
+/*
   body {
     background-color: lightsteelblue;
   }
+*/
   
   #articles .article {
     width: 35%;
@@ -568,19 +570,14 @@ MEDIA QUERIES
     width: auto;
     max-width: 250px;
   }
-  
-/*
-  #companies .companies-icon {
-    width: 15%;
-    margin: 0 5%;
-  }
-*/
 }
 
 @media screen and (max-width: 900px) {
+/*
   body {
     background-color: lightpink;
   }
+*/
   
   #nav .nav-logo {
     background-image: url(../assets/MM_logo_icon%20only.png);
@@ -623,9 +620,11 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 600px) {
+/*
   body {
     background-color: lightgreen;
   }
+*/
   
   #nav .nav-links {
     display: none;
