@@ -565,12 +565,6 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 900px) {
-/*
-  body {
-    background-color: lightpink;
-  }
-*/
-  
   #nav .nav-logo {
     background-image: url(../assets/MM_logo_icon%20only.png);
     background-size: contain;
@@ -612,11 +606,9 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 600px) {
-/*
-  body {
-    background-color: lightgreen;
+  #nav {
+    margin-top: 1em;
   }
-*/
   
   #nav .nav-links {
     display: none;
@@ -628,6 +620,7 @@ MEDIA QUERIES
   
   #header .header-wrap {
     margin-left: 8.5vw;
+    background-position: 10px 25px;
   }
   
   #header h1 {
@@ -688,7 +681,7 @@ MEDIA QUERIES
 
 @media screen and (max-width: 350px) {
   #header .header-wrap {
-    background-position: 1px 35px;
+    background-position: 1px 17px;
   }
   
   #header h1 {
