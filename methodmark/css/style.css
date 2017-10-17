@@ -521,23 +521,15 @@ FOOTER section
 MEDIA QUERIES
 ****/
 @media screen and (max-width: 1350px) {
-/*
-  body {
-    background-color: lightyellow;
-  }
-*/
-  
   #header .header-wrap {
     padding-right: 1em;
   }
 }
 
 @media screen and (max-width: 1200px) {
-/*
-  body {
-    background-color: lightsteelblue;
+  #team .team-link {
+    width: 300px;
   }
-*/
   
   #articles .article {
     width: 35%;
