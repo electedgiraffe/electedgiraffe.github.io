@@ -682,3 +682,28 @@ MEDIA QUERIES
     max-width: 150px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .section-heading {
+    font-size: 2em;
+  }
+  
+  #companies .companies-icon img {
+    width: auto;
+    max-width: 100px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #header .header-wrap {
+    background-position: 1px 35px;
+  }
+  
+  #header h1 {
+    font-size: 2em;
+  }
+  
+  #header h2 {
+    font-size: .8em;
+  }
+}
