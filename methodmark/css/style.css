@@ -223,6 +223,9 @@ NAV section
   padding: .5em;
   transition: all .3s ease-out;
 }
+#mobile-menu li a {
+  font-size: 1.1em;
+}
 
 #nav a {
   text-decoration: none;
