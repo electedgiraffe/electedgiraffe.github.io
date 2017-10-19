@@ -225,6 +225,7 @@ NAV section
 }
 #mobile-menu li a {
   font-size: 1.3em;
+  text-transform: uppercase;
 }
 
 #nav a {
