@@ -38,9 +38,9 @@ TEAM section
 }
 
 #team .text-wrap {
-  margin-right: 24px;
+  margin-right: 6em;
   margin-bottom: 48px;
-  width: 30%;
+  width: 40%;
 }
 
 #team .bio-img {
