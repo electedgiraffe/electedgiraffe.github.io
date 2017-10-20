@@ -133,10 +133,6 @@ MEDIA QUERIES
     margin-left: 8.5vw;
     margin-top: 7em;
   }
-  
-  #email .container {
-    margin-bottom: 2em;
-  }
 }
 
 @media screen and (max-width: 400px) {  
