@@ -38,9 +38,29 @@ TEAM section
 }
 
 #services .text-wrap {
-  margin-right: 6em;
+  margin-right: 3em;
   margin-bottom: 48px;
   width: 40%;
+}
+
+#services .sub-heading {
+  font-size: 1.1em;
+}
+
+#services .text-wrap ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+#services .text-wrap ul li {
+  list-style: none;
+  padding: 0;
+  margin: .25em 0;
+  width: 50%;
 }
 
 #services .category-img {
