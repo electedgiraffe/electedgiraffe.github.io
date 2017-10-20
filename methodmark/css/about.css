@@ -108,8 +108,9 @@ MEDIA QUERIES
   
   #team .text-wrap {
     order: 1;
-    width: 100%;
+    width: 92%;
     margin-bottom: 2em;
+    margin-right: 1em;
   }
 }
 
