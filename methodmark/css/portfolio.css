@@ -22,51 +22,90 @@ HEADER section
 }
 
 /**** 
-TEAM section
+PORTFOLIO section
 ****/
 
-#team {
+#portfolio {
   margin: 5vw 0;
   overflow: hidden;
 }
 
-#team .bio {
+#portfolio #investment.container {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-#team .text-wrap {
-  margin-right: 6em;
+#portfolio #investment .text-wrap {
+  margin-right: 5em;
   margin-bottom: 4em;
+  width: 70%;
+}
+
+#portfolio .investments {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+}
+
+#portfolio .company-card {
+  width: calc(100% * (1/3) - 1em - 5px);
+  height: auto;
+  min-height: 500px;
+  margin-left: 1em;
+  margin-bottom: 5em;
+  background-color: #e8e8e8;
+  border-left: 5px solid #0091c9;
+  box-sizing: border-box;
+}
+
+#portfolio .company-card img {
+  width: 70%;
+  margin: 2em 15% 1em;
+}
+
+#portfolio .company-card p {
+  margin: 1em 10% 20%;
+}
+
+#portfolio #work .text-wrap:nth-child(1) {
   width: 40%;
 }
 
-#team .bio-img {
-  background-size: contain;
-  background-repeat: no-repeat;
+#portfolio #work .container {
+  
+}
+
+#portfolio #work .case-study {
+  border-left: 5px solid #0091c9;
+  margin-bottom: 5px;
+}
+
+#portfolio #work .case-study .text-wrap {
   width: 100%;
-  height: 0;
-  padding-top: 45%;
+  padding: 4em 0 1em 10em;
 }
 
-#team #micah .bio-img {
-  background-image: url('../assets/team.jpg');
+#portfolio #work .case-study .text-wrap .sub-heading {
+  margin-bottom: 1em;
 }
 
-#team #jen .bio-img {
-  background-image: url('../assets/team.jpg');
+#portfolio #work .case-study .text-wrap .body-copy {
+  font-size: 1.125em;
+  margin: 0;
 }
 
-#team #anna .bio-img {
-  background-image: url('../assets/team.jpg');
+#portfolio #work .case-study ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.125em;
+  font-weight: 700;
 }
-
-#team #john .bio-img {
-  background-image: url('../assets/team.jpg');
-}
-
 
 
 
@@ -74,7 +113,7 @@ TEAM section
 MEDIA QUERIES
 ****/
 @media screen and (max-width: 1200px) {
-  #team .text-wrap {
+  #portfolio .text-wrap {
     margin-right: 3em;
     margin-bottom: 4em;
     width: 60%;
@@ -93,20 +132,20 @@ MEDIA QUERIES
     margin-bottom: 4em;
   }
   
-  #team .bio {
+  #portfolio .bio {
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: flex-start;
   }
   
-  #team .bio-img {
+  #portfolio .bio-img {
     order: 0;
     width: 100%;
     padding-top: 50%;
     margin-bottom: 1em;
   }
   
-  #team .text-wrap {
+  #portfolio .text-wrap {
     order: 1;
     width: 92%;
     margin-bottom: 2em;
