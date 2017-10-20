@@ -29,28 +29,6 @@ HEADER section
   background-position: 10px 35px;
 }
 
-#header h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 4em;
-  font-weight: 600;
-  letter-spacing: .244em;
-  text-align: left;
-  margin: 0;
-  margin-bottom: 1vw;
-  padding: 0;
-  
-}
-
-#header h2 {
-  font-family: 'Merriweather', serif;
-  font-size: 1.5em;
-  letter-spacing: .06em;
-  font-weight: 400;
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-
 /**** 
 TEAM section
 ****/
@@ -316,14 +294,6 @@ MEDIA QUERIES
     background-position: 10px 25px;
   }
   
-  #header h1 {
-    font-size: 3em;
-  }
-  
-  #header h2 {
-    font-size: 1.2em;
-  }
-  
   #team .team-link {
     top: 0;
     width: 100%;
@@ -379,14 +349,6 @@ MEDIA QUERIES
 @media screen and (max-width: 350px) {
   #header .header-wrap {
     background-position: 1px 17px;
-  }
-  
-  #header h1 {
-    font-size: 2em;
-  }
-  
-  #header h2 {
-    font-size: .8em;
   }
   
   #team .team-link div:first-of-type {

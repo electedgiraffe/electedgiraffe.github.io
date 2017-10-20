@@ -75,9 +75,9 @@ MEDIA QUERIES
 ****/
 @media screen and (max-width: 1200px) {
   #team .text-wrap {
-  margin-right: 3em;
-  margin-bottom: 4em;
-  width: 60%;
+    margin-right: 3em;
+    margin-bottom: 4em;
+    width: 60%;
   }
 }
 
@@ -109,6 +109,7 @@ MEDIA QUERIES
   #team .text-wrap {
     order: 1;
     width: 100%;
+    margin-bottom: 2em;
   }
 }
 
@@ -129,14 +130,11 @@ MEDIA QUERIES
   
   #header .header-wrap {
     margin-left: 8.5vw;
+    margin-top: 7em;
   }
   
-  #header h1 {
-    font-size: 3em;
-  }
-  
-  #header h2 {
-    font-size: 1.2em;
+  #email .container {
+    margin-bottom: 2em;
   }
 }
 
@@ -145,11 +143,5 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 350px) {
-  #header h1 {
-    font-size: 2em;
-  }
-  
-  #header h2 {
-    font-size: .8em;
-  }
+
 }

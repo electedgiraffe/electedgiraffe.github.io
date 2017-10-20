@@ -390,7 +390,9 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 1200px) {
-
+  #email .btn {
+    margin-left: 4em;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -406,6 +408,14 @@ MEDIA QUERIES
     margin-right: 1em;
     padding-left: 0;
   }
+  
+  #email .container {
+    margin-left: 8.5vw;
+  }
+  
+  #email .btn {
+    margin-left: 2em;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -420,14 +430,32 @@ MEDIA QUERIES
   #menu-btn {
     display: block;
   }
+  
+  .header-title {
+    font-size: 3em;
+  }
+  
+  .sub-heading {
+    font-size: 1.2em;
+  }
 }
 
 @media screen and (max-width: 400px) {
   .section-heading {
     font-size: 2em;
   }
+  
+  #email .btn {
+    margin-left: 1em;
+  }
 }
 
 @media screen and (max-width: 350px) {
-
+  .header-title {
+    font-size: 2em;
+  }
+  
+  .sub-heading {
+    font-size: .8em;
+  }
 }
