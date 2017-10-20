@@ -294,246 +294,25 @@ NAV section
   text-transform: uppercase;
 }
 
-/**** 
-HEADER section
-****/
-
-/*
-#header {
-  height: 575px;
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  background: -webkit-linear-gradient(90deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
-  background: -moz-linear-gradient(90deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
-  background: -o-linear-gradient(90deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
-  background: -ms-linear-gradient(90deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
-  background: linear-gradient(0deg, rgba(232, 232, 232, 0) 0%, rgba(232, 232, 232, 0.901961) 75%, #e8e8e8 100%);
-  transition: all 0.25s ease;
-}
-
-#header .header-wrap {
-  width: 100%;
-  margin-left: 40vw;
-  margin-top: 3vw;
-  background-image: -webkit-linear-gradient(90deg, #fff 0%, #fff 100%);
-  background-image: -moz-linear-gradient(90deg, #fff 0%, #fff 100%);
-  background-image: -o-linear-gradient(90deg, #fff 0%, #fff 100%);
-  background-image: -ms-linear-gradient(90deg, #fff 0%, #fff 100%);
-  background-image: linear-gradient(90deg, #fff 0%, #fff 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 4px;
-  background-position: 10px 35px;
-}
-
-#header h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 4em;
-  font-weight: 600;
-  letter-spacing: .244em;
-  text-align: left;
-  margin: 0;
-  margin-bottom: 1vw;
-  padding: 0;
-}
-*/
-
-/*
-#header h2 {
-  font-family: 'Merriweather', serif;
-  font-size: 1.5em;
-  letter-spacing: .06em;
-  font-weight: 400;
-  text-align: left;
-  margin: 0;
-  padding: 0;
-}
-*/
 
 /**** 
-TEAM section
+EMAIL section
 ****/
 
-/*
-#team {
-  margin: 5vw 0;
-  overflow: hidden;
+#email .container {
+  height: 280px;
+  margin-left: 20vw;
 }
 
-#team .team-img {
-  background-image: url('../assets/Team.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 50%;
-  position: relative;
+#email .container .signup {
+  margin-top: 1em;
+  background-color: #e8e8e8;
+  border-bottom: 5px solid #0091c9;
 }
 
-#team .team-link {
-  position: absolute;
-  top: 8%;
-  width: 470px;
-  background-color: #fff;
-  padding: .9vw 0;
-  transition: all 0.3s ease;
+#email .btn {
+  margin: 1em 0 1em 7em;
 }
-
-#team .team-link:hover {
-  padding-left: 25px;
-}
-
-#team .team-link div {
-  width: 55%;
-  font-family: 'Merriweather', serif;
-  font-size: 1.5em;
-  line-height: 1.6em;
-  letter-spacing: .06em;
-  font-style: italic;
-  margin: 0 0 .4em 35%;
-}
-*/
-
-
-/**** 
-ARTICLES section
-****/
-
-/*
-#articles {
-  margin: 13vw 0 1vw;
-}
-
-#articles .articles-wrap {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
-
-#article-one {
-  background-image: url(../assets/temp_article-1.jpg);
-  background-color: rgba(255,255,255,.3);
-  background-blend-mode: lighten;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#article-two {
-  background-image: url(../assets/temp_article-2.jpg);
-  background-color: rgba(255,255,255,.4);
-  background-blend-mode: lighten;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#article-three {
-  background-image: url(../assets/temp_article-3.jpg);
-  background-color: rgba(255,255,255,.4);
-  background-blend-mode: lighten;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#article-four {
-  background-image: url(../assets/temp_article-4.jpg);
-  background-color: rgba(255,255,255,.4);
-  background-blend-mode: lighten;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-#articles .article {
-  width: 330px;
-  height: auto;
-  margin: 0 9%;
-  font-family: 'Merriweather', serif;
-  position: relative;
-}
-
-#articles .article-img {
-  width: 100%;
-  height: 0;
-  padding-top: 66.66%;
-}
-
-#articles .text-wrapper {
-  position: relative;
-  top: -8.5%;
-  left: 5%;
-  width: 95%;
-}
-
-#articles .article h1 {
-  font-size: 1.5em;
-  letter-spacing: .06em;
-  font-weight: 600;
-  text-align: left;
-  -webkit-box-shadow: 0 5px 40px 25px rgba(255,255,255,.6);
-  -moz-box-shadow: 0 5px 40px 25px rgba(255,255,255,.6);
-  box-shadow: 0 5px 40px 25px rgba(255,255,255,.6);
-  background-color: rgba(255,255,255,.6);
-  margin: 0 0 .8vw;
-  padding: 0;
-}
-
-#articles .article p {
-  font-size: .9em;
-  letter-spacing: .06em;
-  font-weight: 400;
-  font-style: italic;
-  text-align: left;
-  margin: 0 0 1vw;
-  padding: 0;
-}
-
-#articles a {
-  text-decoration: none;
-  font-family: 'Merriweather', serif;
-  font-size: 1.5em;
-  letter-spacing: .06em;
-  font-weight: 300;
-  font-style: italic;
-}
-*/
-
-
-/**** 
-COMPANIES section
-****/
-
-/*
-#companies {
-  margin: 1vw 0 9.5vw;
-}
-
-#companies .companies-wrap {
-  
-}
-
-#companies .icon-container {
-  background: #e8e8e8;
-  width: 100%;
-  height: 36.5vw;
-  max-height: 700px;
-  margin: 2% 0;
-  box-sizing: border-box;
-  border-left: 5px solid #0091c9;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-#companies .companies-icon {
-  width: 24%;
-  text-align: center;
-}
-
-#companies .companies-icon img {
-  width: auto;
-  max-width: 250px;
-}
-*/
 
 /**** 
 FOOTER section
@@ -577,7 +356,6 @@ FOOTER section
 }
 
 #footer .footer-wrap ul:last-of-type li {
-/*  display: inline;*/
   margin-right: 1.2vw;
 }
 
@@ -607,51 +385,11 @@ FOOTER section
 MEDIA QUERIES
 ****/
 @media screen and (max-width: 1350px) {
-/*
-  #header .header-wrap {
-    padding-right: 1em;
-  }
-*/
+
 }
 
 @media screen and (max-width: 1200px) {
-/*
-  #team .team-link {
-    width: 300px;
-  }
-  
-  #articles .article {
-    width: 35%;
-    margin: 0 3%;
-  }
-  
-  #articles .text-wrapper {
-    top: -7%;
-  }
-  
-  #articles .article p {
-    margin-bottom: 2vw;
-  }
-  
-  #articles a {
-    margin-bottom: 5vw;
-  }
-  
-  #companies .icon-container {
-    height: 900px;
-    max-height: 1200px;
-  }
-  
-  #companies .companies-icon {
-    width: 49%;
-    text-align: center;
-  }
 
-  #companies .companies-icon img {
-    width: auto;
-    max-width: 250px;
-  }
-*/
 }
 
 @media screen and (max-width: 900px) {
@@ -667,34 +405,6 @@ MEDIA QUERIES
     margin-right: 1em;
     padding-left: 0;
   }
-  
-/*
-  #header {
-    height: 500px;
-  }
-  
-  #header .header-wrap {
-    margin-left: 25vw;
-  }
-  
-  #team .team-link {
-    width: auto;
-  }
-  
-  #team .team-link div {
-    width: 200px;
-    margin: .2em 1em;
-  }
-  
-  #team .team-link .arrow-long {
-    height: .7em;
-  }
-  
-  #articles .article {
-    width: 60%;
-    margin: 0 2%;
-  }
-*/
 }
 
 @media screen and (max-width: 600px) {
@@ -709,100 +419,14 @@ MEDIA QUERIES
   #menu-btn {
     display: block;
   }
-  
-/*
-  #header {
-    height: 400px;
-  }
-  
-  #header .header-wrap {
-    margin-left: 8.5vw;
-    background-position: 10px 25px;
-  }
-  
-  #header h1 {
-    font-size: 3em;
-  }
-  
-  #header h2 {
-    font-size: 1.2em;
-  }
-  
-  #team .team-link {
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(255,255,255,.6);
-  }
-  
-  #team .team-link div:first-of-type {
-    width: 200px;
-    margin: 1em 1em .5em;
-  }
-  
-  #team .team-link .arrow-long {
-    height: .6em;
-  }
-  
-  #articles .article {
-    width: 80%;
-    margin: 0 2%;
-  }
-  
-  #companies .icon-container {
-    height: 700px;
-    max-height: 1200px;
-  }
-  
-  #companies .companies-icon {
-    width: 40%;
-    text-align: center;
-  }
-
-  #companies .companies-icon img {
-    width: auto;
-    max-width: 150px;
-  }
-*/
 }
 
 @media screen and (max-width: 400px) {
   .section-heading {
     font-size: 2em;
   }
-  
-/*
-  #team .team-link .arrow-long {
-    height: .5em;
-  }
-  
-  #articles a {
-    font-size: 1.2em;
-  }
-  
-  #companies .companies-icon img {
-    width: auto;
-    max-width: 100px;
-  }
-*/
 }
 
 @media screen and (max-width: 350px) {
-/*
-  #header .header-wrap {
-    background-position: 1px 17px;
-  }
-  
-  #header h1 {
-    font-size: 2em;
-  }
-  
-  #header h2 {
-    font-size: .8em;
-  }
-  
-  #team .team-link div:first-of-type {
-    font-size: 1.2em;
-  }
-*/
+
 }

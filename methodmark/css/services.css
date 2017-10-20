@@ -25,25 +25,25 @@ HEADER section
 TEAM section
 ****/
 
-#team {
+#services {
   margin: 5vw 0;
   overflow: hidden;
 }
 
-#team .bio {
+#services .category {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-#team .text-wrap {
+#services .text-wrap {
   margin-right: 6em;
   margin-bottom: 48px;
   width: 40%;
 }
 
-#team .bio-img {
+#services .category-img {
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -51,19 +51,15 @@ TEAM section
   padding-top: 45%;
 }
 
-#team #micah .bio-img {
+#services #strategy .category-img {
   background-image: url('../assets/team.jpg');
 }
 
-#team #jen .bio-img {
+#services #brand .category-img {
   background-image: url('../assets/team.jpg');
 }
 
-#team #anna .bio-img {
-  background-image: url('../assets/team.jpg');
-}
-
-#team #john .bio-img {
+#services #creative .category-img {
   background-image: url('../assets/team.jpg');
 }
 
