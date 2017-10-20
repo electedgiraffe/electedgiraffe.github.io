@@ -39,7 +39,7 @@ TEAM section
 
 #team .text-wrap {
   margin-right: 6em;
-  margin-bottom: 48px;
+  margin-bottom: 4em;
   width: 40%;
 }
 
@@ -73,19 +73,17 @@ TEAM section
 /****
 MEDIA QUERIES
 ****/
-@media screen and (max-width: 1350px) {
-  #header .header-wrap {
-    padding-right: 1em;
-  }
-}
-
 @media screen and (max-width: 1200px) {
-  
+  #team .text-wrap {
+  margin-right: 3em;
+  margin-bottom: 4em;
+  width: 60%;
+  }
 }
 
 @media screen and (max-width: 900px) {
   #header {
-    
+    height: 800px;
   }
   
   #header .header-wrap {
@@ -93,6 +91,34 @@ MEDIA QUERIES
     margin-left: 8.5vw;
     margin-right: 2em;
     margin-bottom: 4em;
+  }
+  
+  #team .bio {
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  #team .bio-img {
+    order: 0;
+    width: 100%;
+    padding-top: 50%;
+    margin-bottom: 1em;
+  }
+  
+  #team .text-wrap {
+    order: 1;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  #header {
+    height: 950px;
+  }
+  
+  #header .header-wrap {
+    margin-top: 13em;
   }
 }
 
