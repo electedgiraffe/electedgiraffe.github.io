@@ -61,12 +61,12 @@ styling classes
 
 .body-copy {
   font-family: 'Roboto', sans-serif;
-  font-size: 1em;
+  font-size: 1.2em;
   letter-spacing: .06em;
   font-weight: 400;
   text-align: left;
   margin: 0;
-  margin-bottom: 1.25em;
+  margin-bottom: 1.3em;
   padding: 0;
 }
 

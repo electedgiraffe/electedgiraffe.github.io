@@ -35,6 +35,7 @@ SERVICES section
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 15em;
 }
 
 #services .text-wrap {
@@ -68,25 +69,34 @@ SERVICES section
   background-repeat: no-repeat;
   width: 100%;
   height: 0;
-  padding-top: 45%;
+  padding-top: 35%;
 }
 
 #services #strategy .category-img {
   background-image: url('../assets/team.jpg');
 }
 
-#services #brand .category-img {
-  background-image: url('../assets/team.jpg');
+#services .funky-grid {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0;
+  padding: 0;
 }
 
-#services #creative .category-img {
-  background-image: url('../assets/team.jpg');
+#services .funky-grid .funky-col {
+  display: flex;
+  flex-flow: column wrap;
 }
 
+#services .funky-grid .funky-col:nth-child(2) {
+  margin-top: 5em;
+}
 
-/**** 
-SERVICES section
-****/
+#services .funky-grid .funky-item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
 #work {
   margin: 2em 0 10em;
@@ -157,6 +167,7 @@ MEDIA QUERIES
     flex-flow: column nowrap;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 5em;
   }
   
   #services .category-img {
@@ -171,6 +182,11 @@ MEDIA QUERIES
     width: 92%;
     margin-bottom: 2em;
     margin-right: 1em;
+  }
+  
+  #services .funky-grid .funky-col:nth-child(2) {
+    margin-top: 0;
+    margin-bottom: 1em;
   }
 }
 
@@ -192,6 +208,15 @@ MEDIA QUERIES
   #header .header-wrap {
     margin-top: 7em;
     margin-left: 8.5vw;
+    padding-right: 0;
+  }
+  
+  #services .sub-heading {
+    font-size: .9em;
+  }
+  
+  #services .text-wrap ul li {
+    width: 98%;
   }
 }
 
