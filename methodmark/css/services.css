@@ -64,38 +64,38 @@ SERVICES section
   width: 48%;
 }
 
-#services .category-img {
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 35%;
-}
-
-#services #strategy .category-img {
-  background-image: url('../assets/team.jpg');
-}
-
 #services .funky-grid {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
   margin: 0;
   padding: 0;
-}
-
-#services .funky-grid .funky-col {
-  display: flex;
-  flex-flow: column wrap;
-}
-
-#services .funky-grid .funky-col:nth-child(2) {
-  margin-top: 5em;
+  width: 100%;
+  height: auto;
 }
 
 #services .funky-grid .funky-item {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 0;
+  padding-top: 25%;
+}
+
+#services .funky-grid .funky-item:nth-child(3) {
   width: 100%;
-  margin: 0;
+  padding-top: 51%;
+}
+
+.funky-item {
+  background-image: url('../assets/team.jpg');
+}
+
+#services #creative .funky-item:nth-child(3) {
+  width: 80%;
+  height: auto;
   padding: 0;
+  background: none;
 }
 
 #work {
