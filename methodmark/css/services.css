@@ -77,18 +77,74 @@ SERVICES section
 #services .funky-grid .funky-item {
   background-size: contain;
   background-repeat: no-repeat;
-  width: 50%;
+  width: 30%;
   height: 0;
   padding-top: 25%;
 }
 
-#services .funky-grid .funky-item:nth-child(3) {
+#services #strategy .funkty-grid {
+  justify-content: flex-end;
+}
+
+#services #strategy .funky-item:nth-child(1) {
+  background-image: url('../assets/services_img1.jpg');
+  width: 50%;
+  padding-top: 33.333%;
+}
+
+#services #strategy .funky-item:nth-child(2) {
+  background-image: url('../assets/services_img2.jpg');
+  width: 50%;
+  padding-top: 33.333%;
+}
+
+#services #strategy .funky-item:nth-child(3) {
+  background-image: url('../assets/services_img3.jpg');
   width: 100%;
   padding-top: 51%;
 }
 
-.funky-item {
-  background-image: url('../assets/team.jpg');
+#services #brand .funky-item {
+  height: 200px;
+}
+
+#services #brand .funky-item:nth-child(1) {
+  background-image: url('../assets/services_sightglass.jpg');
+  width: 40%;
+  max-width: 375px;
+  margin-right: 4em;
+}
+
+#services #brand .funky-item:nth-child(2) {
+  background-image: url('../assets/services_populus.jpg');
+  width: 40%;
+  max-width: 345px;
+  margin-left: 4em;
+}
+
+#services #brand .funky-item:nth-child(3) {
+  background-image: url('../assets/services_colors.jpg');
+  width: 40%;
+  max-width: 375px;
+  padding-top: 26%;
+  height: auto;
+}
+
+#services #creative .funky-item:nth-child(2) {
+  background-image: url('../assets/services_chart.jpg');
+}
+
+#services #creative .funky-item:nth-child(1) {
+  position: relative;
+  background: none;
+  width: 40%;
+}
+
+#services #creative .funky-item video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 #services #creative .funky-item:nth-child(3) {
@@ -98,20 +154,11 @@ SERVICES section
   background: none;
 }
 
-#work {
-  margin: 2em 0 10em;
+#services .slider-mobile {
+  display: none;
 }
 
-#work .container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-}
 
-#work .piece {
-  width: 30%;
-}
 
 .embed-container {
   position: relative;
@@ -187,6 +234,14 @@ MEDIA QUERIES
   #services .funky-grid .funky-col:nth-child(2) {
     margin-top: 0;
     margin-bottom: 1em;
+  }
+  
+  #services .slider-mobile {
+    display: block;
+  }
+  
+  #services .slider-desktop {
+    display: none;
   }
 }
 
