@@ -82,7 +82,7 @@ SERVICES section
   padding-top: 25%;
 }
 
-#services #strategy .funkty-grid {
+#services #strategy .funky-grid {
   justify-content: flex-end;
 }
 
@@ -110,42 +110,49 @@ SERVICES section
 
 #services #brand .funky-item:nth-child(1) {
   background-image: url('../assets/services_sightglass.jpg');
-  width: 40%;
+  width: 50%;
   max-width: 375px;
   margin-right: 4em;
 }
 
 #services #brand .funky-item:nth-child(2) {
   background-image: url('../assets/services_populus.jpg');
-  width: 40%;
+  width: 50%;
   max-width: 345px;
   margin-left: 4em;
 }
 
 #services #brand .funky-item:nth-child(3) {
   background-image: url('../assets/services_colors.jpg');
-  width: 40%;
+  width: 50%;
   max-width: 375px;
   padding-top: 26%;
   height: auto;
 }
 
+#services #creative .funky-item:nth-child(1) {
+/*  position: relative;*/
+  background: none;
+  width: 50%;
+  padding: 0;
+  height: auto;
+}
+
 #services #creative .funky-item:nth-child(2) {
   background-image: url('../assets/services_chart.jpg');
+  width: 50%;
+  max-width: 375px;
+  padding-top: 26%;
 }
 
-#services #creative .funky-item:nth-child(1) {
-  position: relative;
-  background: none;
-  width: 40%;
-}
-
+/*
 #services #creative .funky-item video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
 }
+*/
 
 #services #creative .funky-item:nth-child(3) {
   width: 80%;
@@ -170,7 +177,8 @@ SERVICES section
 
 .embed-container iframe,
 .embed-container object,
-.embed-container embed {
+.embed-container embed,
+.embed-container video{
   position: absolute;
   top: 0;
   left: 0;
@@ -231,13 +239,21 @@ MEDIA QUERIES
     margin-right: 1em;
   }
   
-  #services .funky-grid .funky-col:nth-child(2) {
-    margin-top: 0;
-    margin-bottom: 1em;
+  #services #creative .funky-item:nth-child(1) {
+    width: 100%;
+  }
+  
+  #services #creative .funky-item:nth-child(2) {
+    display: none;
+  }
+  
+  #services #creative .funky-item:nth-child(3) {
+    width: 100%;
   }
   
   #services .slider-mobile {
     display: block;
+    width: 100%;
   }
   
   #services .slider-desktop {
