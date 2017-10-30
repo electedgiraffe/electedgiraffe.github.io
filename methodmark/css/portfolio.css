@@ -22,7 +22,7 @@ HEADER section
 }
 
 /**** 
-PORTFOLIO section
+PORTFOLIO // INVESTMENT section
 ****/
 
 #portfolio {
@@ -35,15 +35,16 @@ PORTFOLIO section
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 4em;
 }
 
 #portfolio #investment .text-wrap {
-  margin-right: 5em;
+  margin-right: 1em;
   margin-bottom: 4em;
   width: 70%;
 }
 
-#portfolio .investments {
+#portfolio #investment .investments {
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -51,10 +52,9 @@ PORTFOLIO section
   height: auto;
 }
 
-#portfolio .company-card {
-  width: calc(100% * (1/3) - 1em - 5px);
-  height: auto;
-  min-height: 500px;
+#portfolio #investment .company-card {
+/*  width: calc(100% * (1/3) - 1em - 5px);*/
+  width: 300px;
   margin-left: 1em;
   margin-bottom: 5em;
   background-color: #e8e8e8;
@@ -62,24 +62,33 @@ PORTFOLIO section
   box-sizing: border-box;
 }
 
-#portfolio .company-card img {
-  width: 10vw;
-  margin: 2em 15% 1em;
+#portfolio #investment .company-card:nth-child(1) {
+    margin-left: 0;
 }
 
-#portfolio .company-card p {
-  margin: 1em 10% 20%;
+#portfolio #investment .company-card img {
+  width: calc((100% + 5px) * (2/3));
+  margin: calc((100% + 5px) * .1) calc((100% + 5px) * .15) calc((100% + 5px) * .05);
 }
 
-#portfolio #work .text-wrap:nth-child(1) {
+#portfolio #investment .company-card p {
+  margin: 20px 30px 60px;
+}
+
+
+/**** 
+PORTFOLIO // CASE STUDY section
+****/
+
+#portfolio #case-studies {
+  margin-bottom: 4em;
+}
+
+#portfolio #case-studies .text-wrap:nth-child(1) {
   width: 40%;
 }
 
-#portfolio #work .container {
-  
-}
-
-#portfolio #work .case-study {
+#portfolio #case-studies .case-study {
   border-left: 5px solid #0091c9;
   margin-bottom: 5px;
   display: flex;
@@ -87,22 +96,22 @@ PORTFOLIO section
   margin-bottom: 1em;
 }
 
-#portfolio #work .case-study .text-wrap {
+#portfolio #case-studies .case-study .text-wrap {
   width: 100%;
   padding: 3.333vw 3.333vw 1em 8.333vw;
   width: 35%;
 }
 
-#portfolio #work .case-study .text-wrap .sub-heading {
+#portfolio #case-studies .case-study .text-wrap .sub-heading {
   margin-bottom: 1em;
 }
 
-#portfolio #work .case-study .text-wrap .body-copy {
+#portfolio #case-studies .case-study .text-wrap .body-copy {
   font-size: 1.125em;
-  margin: 0;
+  margin: 0 0 .5em;
 }
 
-#portfolio #work .case-study ul {
+#portfolio #case-studies .case-study ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -111,7 +120,7 @@ PORTFOLIO section
   font-weight: 700;
 }
 
-#portfolio #work .case-study-img {
+#portfolio #case-studies .case-study-img {
   background-image: url('../assets/portfolio_case-study_dynamo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
@@ -125,11 +134,70 @@ PORTFOLIO section
 /****
 MEDIA QUERIES
 ****/
+@media screen and (max-width: 1800px) {
+  #portfolio #investment .text-wrap {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  #portfolio #investment .text-wrap {
+    width: 56%;
+  }
+  
+  #portfolio #investment .company-card {
+    width: 220px;
+  }
+  
+  #portfolio #investment .company-card img {
+    width: calc((100% + 5px) * .8);
+    margin: calc((100% + 5px) * .1) calc((100% + 5px) * .1) calc((100% + 5px) * .05);
+  }
+}
+
 @media screen and (max-width: 1200px) {
-  #portfolio .text-wrap {
-    margin-right: 3em;
-    margin-bottom: 4em;
-    width: 60%;
+  #portfolio #investment.container {
+    flex-flow: column nowrap;
+  }
+  
+  #portfolio #investment .text-wrap {
+    width: 80%;
+    margin-bottom: 2em;
+  }
+  
+  #portfolio #investment .company-card {
+    width: 250px;
+    margin-bottom: 2em;
+  }
+  
+  #portfolio #investment .company-card:nth-child(1) {
+    margin-left: 51px;
+  }
+  
+  #portfolio #investment .company-card img {
+    margin: calc((100% + 5px) * .1);
+  }
+  
+  #portfolio #investment .company-card p {
+    display: none;
+  }
+  
+  #portfolio #case-studies .text-wrap:nth-child(1) {
+    width: 80%;
+  }
+  
+  #portfolio #case-studies .case-study .text-wrap {
+    padding: 1em 1em 1em 3em;
+  }
+  
+  #portfolio #case-studies .case-study-img {
+    padding-top: 25.1%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  #portfolio #investment .company-card:nth-child(1) {
+    margin-left: 0;
   }
 }
 
@@ -145,34 +213,45 @@ MEDIA QUERIES
     margin-bottom: 4em;
   }
   
-  #portfolio .bio {
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
+  #portfolio #investment .company-card {
+    width: 200px;
   }
   
-  #portfolio .bio-img {
+  #portfolio #case-studies .case-study {
+    flex-flow: column wrap;
+    justify-content: flex-end;
+  }
+  
+  #portfolio #case-studies .case-study-img {
     order: 0;
     width: 100%;
-    padding-top: 50%;
+    padding-top: 35.8%;
     margin-bottom: 1em;
   }
   
-  #portfolio .text-wrap {
+  #portfolio #case-studies .case-study .text-wrap {
     order: 1;
-    width: 92%;
-    margin-bottom: 2em;
-    margin-right: 1em;
+    width: 100%;
+    padding: 1em 1em 1em 3em;
+    box-sizing: border-box;
   }
 }
 
 @media screen and (max-width: 715px) {
-  #header {
-    height: 950px;
+  .header-title {
+    font-size: 3em;
   }
   
-  #header .header-wrap {
-    margin-top: 13em;
+  .sub-heading {
+    font-size: 1.2em;
+  }
+  
+  #portfolio #investment .company-card {
+    width: calc(100% * (1/2) - 0.2em - 5px);
+  }
+  
+  #portfolio #investment .company-card:nth-child(3) {
+    margin-left: 0;
   }
 }
 
@@ -185,6 +264,21 @@ MEDIA QUERIES
     margin-top: 7em;
     margin-left: 8.5vw;
   }
+  
+  #header .header-title {
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+  }
+  
+  #portfolio #investment .company-card {
+    margin-bottom: 1em;
+  }
+  
+  #portfolio #case-studies .case-study .text-wrap {
+    padding: 1em;
+  }
 }
 
 @media screen and (max-width: 400px) {  
@@ -192,5 +286,7 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 350px) {
-
+  #header .header-title {
+    font-size: 2em;
+  }
 }
