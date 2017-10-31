@@ -142,11 +142,13 @@ MEDIA QUERIES
 
 @media screen and (max-width: 1600px) {
   #portfolio #investment .text-wrap {
-    width: 56%;
+    width: 44%;
   }
-  
+}
+
+@media screen and (max-width: 1500px) {
   #portfolio #investment .company-card {
-    width: 220px;
+    width: 240px;
   }
   
   #portfolio #investment .company-card img {
