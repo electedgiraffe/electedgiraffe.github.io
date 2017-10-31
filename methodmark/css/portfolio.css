@@ -56,7 +56,7 @@ PORTFOLIO // INVESTMENT section
 /*  width: calc(100% * (1/3) - 1em - 5px);*/
   width: 300px;
   margin-left: 1em;
-  margin-bottom: 5em;
+  margin-bottom: 3em;
   background-color: #e8e8e8;
   border-left: 5px solid #0091c9;
   box-sizing: border-box;
@@ -72,7 +72,7 @@ PORTFOLIO // INVESTMENT section
 }
 
 #portfolio #investment .company-card p {
-  margin: 20px 30px 60px;
+  margin: 20px 30px 30px;
 }
 
 
