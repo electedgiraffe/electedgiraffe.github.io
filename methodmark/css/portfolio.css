@@ -63,7 +63,7 @@ PORTFOLIO // INVESTMENT section
 }
 
 #portfolio #investment .company-card:nth-child(1) {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 #portfolio #investment .company-card img {
@@ -121,12 +121,23 @@ PORTFOLIO // CASE STUDY section
 }
 
 #portfolio #case-studies .case-study-img {
-  background-image: url('../assets/portfolio_case-study_dynamo.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
   height: 0;
   padding-top: 23.1%;
+}
+
+#portfolio #case-studies .case-study:nth-child(1) .case-study-img {
+  background-image: url('../assets/portfolio_case-study_dynamo.jpg');
+}
+
+#portfolio #case-studies .case-study:nth-child(2) .case-study-img {
+  background-image: url('../assets/portfolio_case-study_cbc.jpg');
+}
+
+#portfolio #case-studies .case-study:nth-child(3) .case-study-img {
+  background-image: url('../assets/portfolio_case-study_metonic.jpg');
 }
 
 
@@ -195,6 +206,25 @@ MEDIA QUERIES
   #portfolio #case-studies .case-study-img {
     padding-top: 25.1%;
   }
+  
+  #portfolio #case-studies .case-study {
+    flex-flow: column wrap;
+    justify-content: flex-end;
+  }
+  
+  #portfolio #case-studies .case-study-img {
+    order: 0;
+    width: 100%;
+    padding-top: 35.8%;
+    margin-bottom: 1em;
+  }
+  
+  #portfolio #case-studies .case-study .text-wrap {
+    order: 1;
+    width: 100%;
+    padding: 1em 1em 1em 3em;
+    box-sizing: border-box;
+  }
 }
 
 @media screen and (max-width: 1100px) {
@@ -217,25 +247,6 @@ MEDIA QUERIES
   
   #portfolio #investment .company-card {
     width: 200px;
-  }
-  
-  #portfolio #case-studies .case-study {
-    flex-flow: column wrap;
-    justify-content: flex-end;
-  }
-  
-  #portfolio #case-studies .case-study-img {
-    order: 0;
-    width: 100%;
-    padding-top: 35.8%;
-    margin-bottom: 1em;
-  }
-  
-  #portfolio #case-studies .case-study .text-wrap {
-    order: 1;
-    width: 100%;
-    padding: 1em 1em 1em 3em;
-    box-sizing: border-box;
   }
 }
 
