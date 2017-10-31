@@ -35,6 +35,7 @@ TEAM section
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 4em;
 }
 
 #team .text-wrap {
@@ -52,19 +53,19 @@ TEAM section
 }
 
 #team #micah .bio-img {
-  background-image: url('../assets/team.jpg');
+  background-image: url('../assets/about_micah.jpg');
 }
 
 #team #jen .bio-img {
-  background-image: url('../assets/team.jpg');
+  background-image: url('../assets/about_jen.jpg');
 }
 
 #team #anna .bio-img {
-  background-image: url('../assets/team.jpg');
+  background-image: url('../assets/about_anna.jpg');
 }
 
 #team #john .bio-img {
-  background-image: url('../assets/team.jpg');
+  background-image: url('../assets/about_john.jpg');
 }
 
 
@@ -78,19 +79,6 @@ MEDIA QUERIES
     margin-right: 3em;
     margin-bottom: 4em;
     width: 60%;
-  }
-}
-
-@media screen and (max-width: 900px) {
-  #header {
-    height: 800px;
-  }
-  
-  #header .header-wrap {
-    margin-top: 6em;
-    margin-left: 8.5vw;
-    margin-right: 2em;
-    margin-bottom: 4em;
   }
   
   #team .bio {
@@ -111,6 +99,19 @@ MEDIA QUERIES
     width: 92%;
     margin-bottom: 2em;
     margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #header {
+    height: 800px;
+  }
+  
+  #header .header-wrap {
+    margin-top: 6em;
+    margin-left: 8.5vw;
+    margin-right: 2em;
+    margin-bottom: 4em;
   }
 }
 
