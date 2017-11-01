@@ -28,7 +28,6 @@ HEADER section
 }
 
 #header .featured-img {
-  background-image: url('../assets/blog-posts/featured-temp.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
@@ -58,11 +57,16 @@ CONTENT section
   margin-bottom: 0;
 }
 
+#content .img-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 #content .content-img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right top;
-  width: 100%;
   height: 0;
 }
 
