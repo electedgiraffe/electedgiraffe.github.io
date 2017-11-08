@@ -1,24 +1,24 @@
 #header.info {
-  display: none;
+  display: none!important;
 }
 
 label.desc {
-  font-family: 'Roboto', sans-serif;
-  font-size: 2em;
-  text-transform: uppercase;
-  color: #0091c9;
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 2em!important;
+  text-transform: uppercase!important;
+  color: #0091c9!important;
 }
 
 li.focused label.desc {
-  color: #0091c9;
+  color: #0091c9!important;
 }
 
 .wufoo .instruct {
-  display: none;
+  display: none!important;
 }
 
 .wufoo li.focused {
-  background: none;
+  background: none!important;
 }
 
 
