@@ -255,6 +255,10 @@ MEDIA QUERIES
     margin-left: 25vw;
   }
   
+  #team {
+    margin-bottom: 30vw;
+  }
+  
   #team .team-link {
     width: auto;
   }
@@ -282,6 +286,10 @@ MEDIA QUERIES
   #header .header-wrap {
     margin-left: 8.5vw;
     background-position: 10px 25px;
+  }
+  
+  #team {
+    margin-bottom: 50vw;
   }
   
   #team .team-link {
