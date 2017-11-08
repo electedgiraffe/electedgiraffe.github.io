@@ -1,0 +1,83 @@
+/**** 
+FORM section
+****/
+
+.wufoo .info, .wufoo .paging-context {
+  display: none;
+}
+
+
+
+/****
+MEDIA QUERIES
+****/
+/*
+@media screen and (max-width: 1200px) {
+  #team .text-wrap {
+    margin-right: 3em;
+    margin-bottom: 4em;
+    width: 60%;
+  }
+  
+  #team .bio {
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  #team .bio-img {
+    order: 0;
+    width: 100%;
+    padding-top: 66.666%;
+    margin-bottom: 1em;
+  }
+  
+  #team .text-wrap {
+    order: 1;
+    width: 92%;
+    margin-bottom: 2em;
+    margin-right: 1em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #header {
+    height: 800px;
+  }
+  
+  #header .header-wrap {
+    margin-top: 6em;
+    margin-left: 8.5vw;
+    margin-right: 2em;
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  #header {
+    height: 950px;
+  }
+  
+  #header .header-wrap {
+    margin-top: 13em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header {
+    height: auto;
+  }
+  
+  #header .header-wrap {
+    margin-top: 7em;
+    margin-left: 8.5vw;
+  }
+}
+
+@media screen and (max-width: 400px) {  
+
+}
+
+@media screen and (max-width: 350px) {
+
+}*/
