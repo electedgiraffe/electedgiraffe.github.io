@@ -2,6 +2,25 @@
   display: none;
 }
 
+label.desc {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #0091c9;
+}
+
+li.focused label.desc {
+  color: #0091c9;
+}
+
+.wufoo .instruct {
+  display: none;
+}
+
+.wufoo li.focused {
+  background: none;
+}
+
 
 
 /****
