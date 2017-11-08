@@ -248,6 +248,11 @@ NAV section
   background-repeat: no-repeat;
   width: 205px;
   height: 45px;
+  transition: all 0.35s ease;
+}
+
+#nav .nav-logo:hover {
+  transform: scale(1.05);
 }
 
 #nav .nav-links {
