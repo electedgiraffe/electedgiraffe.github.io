@@ -176,21 +176,21 @@ COMPANIES section
 }
 
 #companies .icon-container {
-  background: #0091c9;
-  width: 100%;
-  height: 36.5vw;
-  max-height: 700px;
-  margin: 2% 0;
+  width: 1321px;
+  height: 685px;
+  padding: 94px 0 95px 116px;
   box-sizing: border-box;
   border-left: 5px solid #0091c9;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
+  align-content: space-between;
   align-items: center;
 }
 
 #companies .companies-icon {
-  width: 24%;
+  width: 400px;
+  height: 200px;
   text-align: center;
 }
 
