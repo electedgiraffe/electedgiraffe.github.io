@@ -99,7 +99,7 @@ SERVICES section
 }
 
 #services #strategy .funky-item:nth-child(3) {
-  background-image: url('../assets/services_img3.jpg');
+  background-image: url('../assets/services_img3.png');
   width: 100%;
   padding-top: calc((440/950)*100%);
 }
@@ -116,7 +116,7 @@ SERVICES section
 }
 
 #services #brand .funky-item:nth-child(2) {
-  background-image: url('../assets/services_populus.jpg');
+  background-image: url('../assets/services_populus.png');
   width: 50%;
   max-width: 345px;
   margin-left: 4em;

@@ -88,7 +88,7 @@ ARTICLES section
 }
 
 #article-one {
-  background-image: url(../assets/temp_article-1.jpg);
+  background-image: url(../assets/blog-posts/startups-are-the-key/home_Image_001.png);
   background-color: rgba(255,255,255,.3);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
@@ -96,7 +96,7 @@ ARTICLES section
 }
 
 #article-two {
-  background-image: url(../assets/temp_article-2.jpg);
+  background-image: url(../assets/blog-posts/5-productivity-tips/home_image_001.png);
   background-color: rgba(255,255,255,.4);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ ARTICLES section
 }
 
 #article-three {
-  background-image: url(../assets/temp_article-3.jpg);
+  background-image: url(../assets/blog-posts/customer-actions/home_image_001.png);
   background-color: rgba(255,255,255,.4);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ ARTICLES section
 }
 
 #article-four {
-  background-image: url(../assets/temp_article-4.jpg);
+  background-image: url(../assets/blog-posts/entreprenuership-big-problem/home_image_001.png);
   background-color: rgba(255,255,255,.4);
   background-blend-mode: lighten;
   background-repeat: no-repeat;
