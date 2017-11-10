@@ -9,6 +9,10 @@ label.desc {
   color: #5a6871!important;
 }
 
+form span.req {
+  color: inherit;
+}
+
 li.focused label.desc {
   color: #0091c9!important;
 }

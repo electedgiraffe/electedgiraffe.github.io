@@ -447,6 +447,14 @@ MEDIA QUERIES
   .underline-anim-prim:after {
     display: none;
   }
+  
+  .underline-anim-sec:before {
+    display: none;
+  }
+  
+  .underline-anim-sec:after {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
