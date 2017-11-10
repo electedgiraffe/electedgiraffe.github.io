@@ -33,7 +33,12 @@ input.text {
 }
 
 .wufoo input.btTxt {
-  
+  background-color: #0091c9;
+  height: 2.5em;
+  width: 6.5em;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .06em;
 }
 
 

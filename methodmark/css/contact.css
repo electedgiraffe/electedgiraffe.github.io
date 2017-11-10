@@ -3,7 +3,7 @@ HEADER section
 ****/
 
 #header {
-  height: 700px;
+  height: 500px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -24,6 +24,10 @@ HEADER section
 /**** 
 FORM section
 ****/
+
+#wufoo-zim4lum0m8a6nf {
+  margin: 5vw 0;
+}
 
 .wufoo .info, .wufoo .paging-context {
   display: none;
