@@ -33,14 +33,19 @@ input.text, textarea.textarea {
   font-family: 'Merriweather', serif!important;
 }
 
-.wufoo input.btTxt {
+input.btTxt {
   background-color: #0091c9;
+  color: #fff;
   border: none;
   height: 2.5em;
   width: 6.5em;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   letter-spacing: .06em;
+}
+
+input.btTxt:hover {
+  cursor: pointer;
 }
 
 
