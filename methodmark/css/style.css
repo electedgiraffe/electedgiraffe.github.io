@@ -439,6 +439,14 @@ MEDIA QUERIES
     margin-left: 2em;
     margin-right: 0.5em;
   }
+  
+  .underline-anim-prim:before {
+    display: none;
+  }
+  
+  .underline-anim-prim:after {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {

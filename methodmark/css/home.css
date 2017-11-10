@@ -334,7 +334,11 @@ MEDIA QUERIES
   }
 }
 
-@media screen and (max-width: 400px) {  
+@media screen and (max-width: 400px) {
+  #header .header-wrap {
+    padding-right: 0;
+  }
+  
   #team .team-link .arrow-long {
     height: .5em;
   }
