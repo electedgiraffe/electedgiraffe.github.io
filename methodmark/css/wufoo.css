@@ -10,7 +10,7 @@ label.desc {
 }
 
 form span.req {
-  color: inherit;
+  color: inherit!important;
 }
 
 li.focused label.desc {
