@@ -189,8 +189,8 @@ COMPANIES section
 }
 
 #companies .companies-icon {
-  width: 400px;
-  height: 200px;
+  width: 33%;
+  height: auto;
   text-align: center;
 }
 
@@ -231,18 +231,13 @@ MEDIA QUERIES
   }
   
   #companies .icon-container {
-    height: 900px;
-    max-height: 1200px;
+    width: auto;
+    height: 520px;
+    padding: 60px 0 60px 30px;
   }
   
   #companies .companies-icon {
-    width: 49%;
-    text-align: center;
-  }
-
-  #companies .companies-icon img {
-    width: auto;
-    max-width: 250px;
+    width: 33%;
   }
 }
 
@@ -275,6 +270,21 @@ MEDIA QUERIES
   #articles .article {
     width: 60%;
     margin: 0 2%;
+  }
+  
+  #companies .icon-container {
+    width: auto;
+    height: 650px;
+    padding: 45px 0 45px 30px;
+  }
+  
+  #companies .companies-icon {
+    width: 50%;
+  }
+  
+  #companies .companies-icon img {
+    max-width: 200px;
+    max-height: 125px;
   }
 }
 
@@ -314,18 +324,13 @@ MEDIA QUERIES
   }
   
   #companies .icon-container {
-    height: 700px;
-    max-height: 1200px;
+    height: 520px;
+    padding: 45px 0 45px 15px;
   }
   
-  #companies .companies-icon {
-    width: 40%;
-    text-align: center;
-  }
-
   #companies .companies-icon img {
-    width: auto;
     max-width: 150px;
+    max-height: 100px;
   }
 }
 
@@ -338,9 +343,14 @@ MEDIA QUERIES
     font-size: 1.2em;
   }
   
+  #companies .icon-container {
+    height: 445px;
+    padding: 30px 0 30px 15px;
+  }
+  
   #companies .companies-icon img {
-    width: auto;
-    max-width: 100px;
+    max-width: 125px;
+    max-height: 80px;
   }
 }
 
