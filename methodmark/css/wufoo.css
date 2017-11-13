@@ -38,7 +38,7 @@ input.text, textarea.textarea {
 }
 
 textarea.textarea {
-  background: #5a6871!important;
+  background: #e8e8e8!important;
   min-width: 90%;
   max-width: 90%;
 }
