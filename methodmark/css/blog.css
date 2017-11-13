@@ -3,7 +3,7 @@ HEADER section
 ****/
 
 #header {
-  height: 900px;
+  height: 600px;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
