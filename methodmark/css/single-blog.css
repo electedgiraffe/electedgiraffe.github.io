@@ -27,7 +27,7 @@
 .block-quote {
   box-sizing: border-box;
   padding-left: 1.5em;
-  border-left: 1px solid 
+  border-left: 1px solid #5a6871;
 }
 
 .before-list {
@@ -115,12 +115,13 @@ CONTENT section
 
 #content .img-container {
   text-align: right;
+  border-left: 5px solid #0091c9;
+  margin-bottom: 30px;
 }
 
 #content img {
-  max-width: 100%;
+  max-width: 99%;
   height: auto;
-  margin-bottom: 30px;
 }
 
 
