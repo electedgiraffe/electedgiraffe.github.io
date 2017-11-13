@@ -37,6 +37,12 @@ input.text, textarea.textarea {
   font-family: 'Merriweather', serif;
 }
 
+textarea.textarea {
+  background: #5a6871!important;
+  min-width: 90%;
+  max-width: 90%;
+}
+
 input.btTxt {
   background-color: #0091c9;
   color: #fff;

@@ -26,8 +26,12 @@ HEADER section
 FORM section
 ****/
 
-#wufoo-zim4lum0m8a6nf {
+#form {
   margin: 0 0 5vw;
+}
+
+#form .container {
+  margin-left: calc(20vw - 1%);
 }
 
 .wufoo .info, .wufoo .paging-context {
@@ -40,31 +44,7 @@ FORM section
 MEDIA QUERIES
 ****/
 @media screen and (max-width: 1200px) {
-  #team .text-wrap {
-    margin-right: 3em;
-    margin-bottom: 4em;
-    width: 60%;
-  }
   
-  #team .bio {
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  
-  #team .bio-img {
-    order: 0;
-    width: 100%;
-    padding-top: 66.666%;
-    margin-bottom: 1em;
-  }
-  
-  #team .text-wrap {
-    order: 1;
-    width: 92%;
-    margin-bottom: 2em;
-    margin-right: 1em;
-  }
 }
 
 @media screen and (max-width: 900px) {
@@ -73,6 +53,10 @@ MEDIA QUERIES
     margin-left: 8.5vw;
     margin-right: 2em;
     margin-bottom: 4em;
+  }
+  
+  #form .container {
+    margin-left: 8.5vw;
   }
 }
 
