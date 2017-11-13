@@ -115,7 +115,7 @@ textarea.textarea {
   max-width: 90%!important;
 }
 
-input.btTxt {
+#saveForm input.btTxt {
   background-color: #0091c9!important;
   color: #fff!important;
   border: none!important;
