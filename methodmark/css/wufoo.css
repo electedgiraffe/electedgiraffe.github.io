@@ -103,26 +103,28 @@ li.focused label.desc {
 
 input.text, textarea.textarea {
   background: none!important;
-  border: none;
-  border-bottom: 3px solid #0091c9;
-  font-family: 'Merriweather', serif;
+  border: none!important;
+  border-bottom: 3px solid #0091c9!important;
+  border-radius: 0!important;
+  font-family: 'Merriweather', serif!important;
 }
 
 textarea.textarea {
   background: #e8e8e8!important;
-  min-width: 90%;
-  max-width: 90%;
+  min-width: 90%!important;
+  max-width: 90%!important;
 }
 
 input.btTxt {
-  background-color: #0091c9;
-  color: #fff;
-  border: none;
-  height: 2.5em;
-  width: 6.5em;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  letter-spacing: .06em;
+  background-color: #0091c9!important;
+  color: #fff!important;
+  border: none!important;
+  border-radius: 0!important;
+  height: 2.5em!important;
+  width: 6.5em!important;
+  text-transform: uppercase!important;
+  font-family: 'Roboto', sans-serif!important;
+  letter-spacing: .06em!important;
 }
 
 input.btTxt:hover {
