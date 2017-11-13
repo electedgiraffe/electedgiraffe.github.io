@@ -69,11 +69,65 @@ MEDIA QUERIES
 }
 
 @media screen and (max-width: 900px) {
-  textarea.textarea {
-    width: 293px;
-    min-width: 90%;
-    max-width: 90%;
-  }
+  #header.info {
+  display: none!important;
+}
+
+label.desc {
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 2em!important;
+  letter-spacing: .06em!important;
+  text-transform: uppercase!important;
+  color: #5a6871!important;
+}
+
+form span.req {
+  color: #5a6871!important;
+}
+
+li.focused label.desc {
+  color: #0091c9!important;
+}
+
+.wufoo .instruct {
+  display: none!important;
+}
+
+.wufoo li.focused {
+  background: none!important;
+}
+
+#fo1li1 span:first-of-type {
+  margin-right: 15px!important;
+}
+
+input.text, textarea.textarea {
+  background: none!important;
+  border: none;
+  border-bottom: 3px solid #0091c9;
+  font-family: 'Merriweather', serif;
+}
+
+textarea.textarea {
+  background: #e8e8e8!important;
+  min-width: 90%;
+  max-width: 90%;
+}
+
+input.btTxt {
+  background-color: #0091c9;
+  color: #fff;
+  border: none;
+  height: 2.5em;
+  width: 6.5em;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .06em;
+}
+
+input.btTxt:hover {
+  cursor: pointer;
+}
 }
 
 @media screen and (max-width: 715px) {
