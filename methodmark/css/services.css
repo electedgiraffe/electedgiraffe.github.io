@@ -35,7 +35,7 @@ SERVICES section
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 15em;
+  margin-bottom: 14em;
 }
 
 #services .text-wrap {
@@ -72,6 +72,7 @@ SERVICES section
   padding: 0;
   width: 100%;
   height: auto;
+  margin-bottom: 1em;
 }
 
 #services .funky-grid .funky-item {

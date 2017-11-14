@@ -202,6 +202,12 @@ COMPANIES section
 /****
 MEDIA QUERIES
 ****/
+@media screen and (max-width: 1500px) {
+  #companies .icon-container {
+    width: auto;
+  }
+}
+
 @media screen and (max-width: 1350px) {
   #header .header-wrap {
     padding-right: 1em;
