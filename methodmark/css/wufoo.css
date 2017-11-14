@@ -114,6 +114,13 @@ textarea.textarea {
   min-width: 90%!important;
   max-width: 90%!important;
 }
+  
+input[type='submit']
+{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;  
+}
 
 #saveForm input.btTxt {
   background-color: #0091c9!important;
