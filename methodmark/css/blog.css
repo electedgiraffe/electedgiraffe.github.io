@@ -97,6 +97,18 @@ MEDIA QUERIES
     margin-right: 2em;
     margin-bottom: 4em;
   }
+  
+  #blog-posts .post {
+    margin-bottom: 8em;
+  }
+  
+  #blog-posts .post .body-copy {
+    margin-bottom: .8em;
+  }
+  
+  #blog-posts .post .btn {
+    margin-top: 1em;
+  }
 }
 
 @media screen and (max-width: 715px) {
@@ -117,6 +129,18 @@ MEDIA QUERIES
   #header .header-wrap {
     margin-top: 7em;
     margin-left: 8.5vw;
+  }
+  
+  #blog-posts .post {
+    margin-bottom: 4em;
+  }
+  
+  #blog-posts .post .body-copy {
+    margin-bottom: .4em;
+  }
+  
+  #blog-posts .post .btn {
+    margin-top: .5em;
   }
 }
 
