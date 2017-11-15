@@ -35,7 +35,7 @@ BLOG POSTS section
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 4em;
+  margin-bottom: 15em;
 }
 
 #blog-posts .text-wrap {
@@ -44,28 +44,9 @@ BLOG POSTS section
   width: 40%;
 }
 
-#blog-posts .post .post-img {
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 0;
-  padding-top: 45%;
-}
-
-#blog-posts .post:nth-child(1) .post-img {
-  background-image: url('../assets/blog-posts/startups-are-the-key/blog_Page_Image_001.png');
-}
-
-#blog-posts .post:nth-child(2) .post-img {
-  background-image: url('../assets/blog-posts/5-productivity-tips/blog_overview_page_001.png');
-}
-
-#blog-posts .post:nth-child(3) .post-img {
-  background-image: url('../assets/blog-posts/customer-actions/blog_page_image_001.png');
-}
-
-#blog-posts .post:nth-child(4) .post-img {
-  background-image: url('../assets/blog-posts/entreprenuership-big-problem/blog_page_image_001.png');
+#blog-posts .post .img-container img {
+  max-width: 100%;
+  height: auto;
 }
 
 #blog-posts .post a:nth-child(1) {
@@ -91,10 +72,9 @@ MEDIA QUERIES
     align-items: flex-start;
   }
   
-  #blog-posts .post .post-img {
+  #blog-posts .post .img-container {
     order: 0;
     width: 100%;
-    padding-top: 50.7%;
     margin-bottom: 1em;
   }
   
