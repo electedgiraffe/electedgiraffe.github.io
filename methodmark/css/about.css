@@ -56,6 +56,15 @@ TEAM section
 MEDIA QUERIES
 ****/
 @media screen and (max-width: 1200px) {
+  #header {
+    height: auto;
+  }
+  
+  #header .header-wrap {
+    margin-top: 15em;
+    margin-bottom: 8em;
+  }
+  
   #team .text-wrap {
     margin-right: 3em;
     margin-bottom: 4em;
@@ -68,10 +77,9 @@ MEDIA QUERIES
     align-items: flex-start;
   }
   
-  #team .bio-img {
+  #team .img-container {
     order: 0;
     width: 100%;
-    padding-top: 66.666%;
     margin-bottom: 1em;
   }
   
@@ -85,24 +93,25 @@ MEDIA QUERIES
 
 @media screen and (max-width: 900px) {
   #header {
-    height: 800px;
+    height: auto;
   }
   
   #header .header-wrap {
-    margin-top: 6em;
+    margin-top: 10em;
     margin-left: 8.5vw;
     margin-right: 2em;
-    margin-bottom: 4em;
+    margin-bottom: 5em;
   }
 }
 
 @media screen and (max-width: 715px) {
   #header {
-    height: 950px;
+    height: auto;
   }
   
   #header .header-wrap {
     margin-top: 13em;
+    margin-bottom: 5em;
   }
 }
 
@@ -112,7 +121,7 @@ MEDIA QUERIES
   }
   
   #header .header-wrap {
-    margin-top: 7em;
+    margin-top: 10em;
     margin-left: 8.5vw;
   }
 }
